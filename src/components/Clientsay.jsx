@@ -27,9 +27,9 @@ const testimonials = [
 const sliderSettings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 600,
   autoplay: true,
-  autoplaySpeed: 2500, // Faster auto-slide
+  autoplaySpeed: 2500,
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -38,30 +38,38 @@ const sliderSettings = {
 
 const Clientsay = () => {
   return (
-    <div className="bg-white px-4 py-10 md:py-16 lg:py-20 flex justify-center">
+    <div className="bg-gradient-to-br from-green-50 via-white to-green-100 px-6 py-16 flex justify-center">
       <div className="w-full max-w-3xl text-center">
-        <h2 className="text-green-600 text-xl md:text-2xl font-semibold mb-8">
+        
+        {/* Heading */}
+        <h2 className="text-3xl md:text-4xl font-bold text-green-700 drop-shadow-sm mb-10">
           What Our Clients Say
         </h2>
 
+        {/* Slider */}
         <Slider {...sliderSettings}>
           {testimonials.map((t, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-lg shadow-md px-6 py-8 mx-2"
-            >
-              <div className="flex flex-col items-center gap-4">
-                <img
-                  src={t.image}
-                  alt={t.name}
-                  className="w-14 h-14 rounded-full object-cover"
-                />
-                <p className="text-gray-700 text-sm md:text-base max-w-md">
-                  “{t.text}”
-                </p>
-                <div className="mt-4">
-                  <p className="font-semibold">{t.name}</p>
-                  <p className="text-gray-500 text-sm">{t.title}</p>
+            <div key={index}>
+              <div className="bg-white rounded-3xl shadow-lg px-8 py-10 mx-4 transition-all duration-500 transform hover:-translate-y-2 hover:shadow-2xl border border-green-50">
+                <div className="flex flex-col items-center gap-5">
+                  
+                  {/* Image */}
+                  <img
+                    src={t.image}
+                    alt={t.name}
+                    className="w-20 h-20 rounded-full shadow-md border-2 border-green-300 p-1"
+                  />
+
+                  {/* Text */}
+                  <p className="text-gray-700 text-lg italic max-w-xl leading-relaxed">
+                    “{t.text}”
+                  </p>
+
+                  {/* Name & Title */}
+                  <div className="mt-2">
+                    <p className="font-bold text-lg text-gray-900">{t.name}</p>
+                    <p className="text-gray-500 text-sm">{t.title}</p>
+                  </div>
                 </div>
               </div>
             </div>
