@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Company Info */}
         <div>
-          <h2 className="text-xl font-semibold mb-2">NAVI COURIER SERVICES</h2>
+          <h2 className="text-xl font-semibold mb-2">CourierWala</h2>
           <p>Delivering excellence in logistics solutions entire PAN India.</p>
           <p className="mt-2">Your reliable partner for domestic shipping services.</p>
         </div>
@@ -18,9 +18,9 @@ const Footer = () => {
           <ul className="space-y-1">
             <li><Link to="/faq" className="hover:underline font-semibold">FAQs</Link></li>
             <li><Link to="/about" className="hover:underline font-semibold">About Us</Link></li>
-            <li><Link to="/contect" className="hover:underline font-semibold">Contact Us</Link></li>
-            <li><Link to="/terms" className="hover:underline font-semibold">Privacy & Policy</Link></li>
-            <li><Link to="/polcy" className="hover:underline font-semibold">Terms of Use</Link></li>
+            <li><Link to="/contact" className="hover:underline font-semibold">Contact Us</Link></li>
+            <li><Link to="/privacy-policy" className="hover:underline font-semibold">Privacy & Policy</Link></li>
+            <li><Link to="/terms" className="hover:underline font-semibold">Terms of Use</Link></li>
           </ul>
         </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
           <p>123 Logistics Street, Cityname,</p>
           <p>Country-PIN</p>
-          <p className="mt-2">Email: info@navicourier.com</p>
+          <p className="mt-2">Email: info@courierwala.com</p>
         </div>
 
         {/* Services */}

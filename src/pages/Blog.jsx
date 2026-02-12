@@ -6,7 +6,7 @@ const blogs = [
     date: 'January 10, 2025',
     description:
       'Take control of your logistics! Learn actionable strategies to optimize routes and boost efficiency.',
-    image: './image/q11.png', // Replace with actual image path
+    image: './image/blog 1.png', // Replace with actual image path
   },
   {
     title: 'AI and Automation: The Next Era of Logistics',

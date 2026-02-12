@@ -3,8 +3,8 @@ import Footer from '../components/Footer';
 
 const faqData = [
   { 
-    question: "What is NAVI COURIER SERVICES?", 
-    answer: "NAVI COURIER SERVICES is a reliable logistics company offering fast and secure delivery solutions across India, ensuring your packages reach on time." 
+    question: "What is CourierWala SERVICES?", 
+    answer: "CourierWala SERVICES is a reliable logistics company offering fast and secure delivery solutions across India, ensuring your packages reach on time." 
   },
   { 
     question: "How do I contact you?", 

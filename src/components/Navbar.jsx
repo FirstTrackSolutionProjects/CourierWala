@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <Link to="/">
                 <img
-                  src="./image/logoo.png"
+                  src="./image/logo.png"
                   alt="Logo"
                   className="h-20 w-auto object-contain -translate-x-8"
                 />
@@ -30,7 +30,7 @@ const Navbar = () => {
               <Link to="/price" className="hover:text-blue-600">Pricing</Link>
               <Link to="/about" className="hover:text-blue-600">About Us</Link>
               <Link to="/blog" className="hover:text-blue-600">Blog</Link>
-              <Link to="/contect" className="hover:text-blue-600">Contact Us</Link>
+              <Link to="/contact" className="hover:text-blue-600">Contact Us</Link>
               <Link to="/signin" className="hover:text-blue-600">Sign In</Link>
             </div>
 

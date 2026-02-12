@@ -6,8 +6,7 @@ const Contact = () => {
     <div>
       <div className="flex flex-col items-center justify-center p-4 max-w-4xl mx-auto">
         <img
-          src="./image/q12.png" // Replace with actual path or URL
-          alt="Customer Support"
+          src="./image/contact.png" 
           className="w-full max-w-sm h-auto rounded-xl mb-6"
         />
         <h1 className="text-3xl font-bold text-center mb-2">Contact Us</h1>
@@ -52,7 +51,7 @@ const Contact = () => {
           <h2 className="text-lg font-bold mb-2">Contact Information</h2>
           <p><strong>Address:</strong> 123 Logistics Street, Cityname, Country</p>
           <p><strong>Phone:</strong> +1 (294) 879-890</p>
-          <p><strong>Email:</strong> support@navicourier.com</p>
+          <p><strong>Email:</strong> support@courierwala.com</p>
           <p><strong>Working Hours:</strong> Mon-Fri: 9 AM - 6 PM</p>
         </div>
       </div>
