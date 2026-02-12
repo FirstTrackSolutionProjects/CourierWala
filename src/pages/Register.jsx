@@ -9,7 +9,7 @@ const Register = () => {
       {/* Header Image */}
       <div className="w-full max-w-md flex justify-center mb-6">
         <img
-          src="./image/q13.png"
+          src="./image/register.png"
           alt="Registration Visual"
           className="w-full rounded-lg shadow-md"
         />

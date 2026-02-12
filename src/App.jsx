@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './pages/About'
-import Contect from './pages/Contect'
+import Contact from './pages/Contact'
 import Register from './pages/Register'
 import Signin from './pages/Signin'
 import Trc from './pages/Trc'
 import Price from './pages/Price'
 import Blog from './pages/Blog'
 import Terms from './pages/Terms'
-import Plyc from './pages/Plyc'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 import Faq from './pages/Faq'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -47,14 +47,14 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contect" element={<Contect />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/trc" element={<Trc />} />
         <Route path="/price" element={<Price />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/polcy" element={<Plyc />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/faq" element={<Faq />} />
          
       </Routes>

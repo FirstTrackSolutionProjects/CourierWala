@@ -7,7 +7,7 @@ const About = () => {
     <div className="flex flex-col items-center w-full px-4 py-8 space-y-8">
       {/* Top Image */}
       <img
-        src="./image/q10.png" // Replace with actual path
+        src="./image/about.png" 
         alt="Teamwork"
         className="w-full max-w-4xl rounded shadow-md"
       />
